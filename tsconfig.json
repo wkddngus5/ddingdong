@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        /* Basic Options */
+        "target": "es5", // 컴파일 후 변환될 ECMA스크립트 버전
+        "sourceMap": true, // 컴파일 후 map 파일의 생성 여부를 결정 한다.
+        "outDir": "./dist", // 컴파일 결과를 저장할 디렉토리를 지정합니다.
+        "strict": true, // true이면 엄격한 타입 검사 모드를 활성화 한다.
+        "noImplicitAny": true, // any 타임으로 암묵적 형 변환 여부를 결정, 기본 : false
+        "esModuleInterop": true, // ECMA스크립트 모듈과 상호 운영성을 가능하게하는 속성으로
+        "experimentalDecorators": true,
+    }
+}
